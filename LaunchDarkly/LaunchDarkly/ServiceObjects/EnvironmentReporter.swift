@@ -28,7 +28,7 @@ enum OperatingSystem: String {
         OperatingSystem.backgroundEnabledOperatingSystems.contains(self)
     }
     static var backgroundEnabledOperatingSystems: [OperatingSystem] {
-        [.macOS]
+        [.macOS, .iOS]
     }
 
     var isStreamingEnabled: Bool {
